@@ -1,0 +1,12 @@
+[package]
+name = "print_name_macros"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+print_name = { path = "../print_name" }
+quote = "1.0"
+syn = "2.0"
